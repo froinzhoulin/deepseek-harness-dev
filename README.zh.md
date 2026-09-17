@@ -8,6 +8,13 @@ DeepSeek Harness（`dsh`）是由 [DeepSeek AI](https://deepseek.com) 开发的�
 
 文档：[https://deepseek-harness.github.io/deepseek-harness/](https://deepseek-harness.github.io/deepseek-harness/)
 
+> **这是个人分支。** 它跟踪 [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)，并在其之上加入下列改动；其余部分与上游一致。
+
+## 本分支的改动
+
+- **`packages/client/ui-glass-theme`**（新增包）—— 内置玻璃主题：毛玻璃面板、半透明表面、壁纸选择器，以及两处设置界面（「通用」里的一行快捷控制，和一整页完整设置）。由 `dsh-web-app` 层挂载，网页版和桌面版都自带，无需额外安装。
+- **`packages/bundle/web-app/cordis.patch.yml`**、**`packages/bundle/web-app/package.json`**、**`tsconfig.client.json`** —— 挂载并构建该包所需的三处接线。
+
 ## 开发者预览
 
 DeepSeek Harness 处于 _开发者预览_ 阶段，正在快速迭代。**未来将出现破坏兼容性的变更。**

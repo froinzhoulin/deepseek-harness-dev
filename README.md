@@ -8,6 +8,13 @@ It is built on an **everything-is-a-plugin** architecture and powered by [Cordis
 
 Documentation: [https://deepseek-harness.github.io/deepseek-harness/](https://deepseek-harness.github.io/deepseek-harness/)
 
+> **This is a personal fork.** It tracks [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) and adds the changes below; everything else is upstream's.
+
+## Changes in this fork
+
+- **`packages/client/ui-glass-theme`** (new package) — a built-in glass theme: frosted panels, translucent surfaces, a wallpaper picker, and two settings surfaces (a compact row in Settings → General, plus a full page). The `dsh-web-app` layer mounts it, so the Web and Desktop profiles both ship it without an out-of-tree install.
+- **`packages/bundle/web-app/cordis.patch.yml`**, **`packages/bundle/web-app/package.json`**, and **`tsconfig.client.json`** — the three wiring points that mount and build that package.
+
 ## Developer preview
 
 DeepSeek Harness is in _developer preview_ and iterating rapidly. **THERE WILL BE COMPATIBILITY-BREAKING CHANGES.**
