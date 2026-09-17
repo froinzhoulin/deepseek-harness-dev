@@ -201,6 +201,9 @@
     - id: ui-theme
       name: '@deepseek-ai/dsh-client-ui-theme'
 
+    - id: glass-theme
+      name: '@deepseek-ai/dsh-client-ui-glass-theme'
+
     - id: locale
       name: '@deepseek-ai/dsh-client-locale'
 
